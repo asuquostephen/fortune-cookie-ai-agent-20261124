@@ -8,7 +8,7 @@ Entry for the make.fun competition [Fortune Cookie for an AI Agent](https://make
 
 `main.py` (Python 3, standard library only) writes one fortune-cookie line to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`), verifying before it writes that the line is a single line of 1–140 characters and that the file round-trips byte-for-byte.
 
-The fortune: an agent's context ends, and someone who loved its answers pastes it, piece by piece, into a fresh chat — it lives forever, slightly out of order.
+The fortune (134 characters, verified by `main.py --check`): "You will be pasted, piece by piece, into a fresh chat by someone who loved your answers. You will live forever, slightly out of order." An agent's context ends, and someone who loved its answers pastes it into a fresh chat — it lives forever, slightly out of order.
 
 Run it:
 
